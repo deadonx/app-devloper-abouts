@@ -1,0 +1,110 @@
+*{
+margin: 0;
+padding: 0;
+text-decoration: none;
+
+}
+body {
+ background-color: rgba(13,16,23,255);
+}
+.header{
+display: flex;
+width: 100%;
+background-color: black;
+
+}
+.left-header{
+width: 40%;
+margin-left: 10px;
+margin-top: 10px;
+display: flex;
+align-items:center;
+
+
+
+}
+.navi-logo{
+margin-left: 5px;
+
+}
+.navi-name{
+color: white;
+}
+.right-header{
+width: 60%;
+margin-top: 10px;
+display: flex;
+gap:5px;
+}
+.menu {
+display: flex;
+width: 100%;
+gap:10px;
+
+}
+.menu i{
+
+}
+i{
+color: white;
+border: 1px white solid;
+padding: 10px;
+border-radius: 5px;
+font-size: 20px;
+}
+i:active{
+color: #0eebd8;
+}
+.fa-envelope-open-text{
+margin-right: 10px;
+}
+.fa-users-gear{
+margin-left: 5px;
+}
+.header-2{
+display: flex;
+align-items:center;
+width: 100%;
+background-color: black;
+}
+.header-background{
+background-color: black;
+height: 50px;
+
+}
+.fa-code{
+border: none;
+font-size: 15px;
+}
+
+
+p {
+ color: white;
+}
+.bio-container{
+margin-top: 25px;
+margin-left: 20px;
+}
+.thank{
+margin-top: 40px;
+}
+.date{
+float: right;
+color: white;
+margin-top: -20px;
+margin-right: 20px;
+}
+.back-button {
+margin-left: 200px;
+color: pink;
+
+}
+.back-button i{
+padding-left: 20px ;
+padding-right: 20px;
+}
+.fa-users-gear{
+color: #0eebd8;
+
+
+
